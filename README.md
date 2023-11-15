@@ -17,7 +17,7 @@ This Starter Code has already implemented the functionalities you implemented in
 * ERC-721 Token Symbol : a Kul
 
 
-### Token Address on the Rinkeby Network
+### Token Address on the GoerliETH Network
 
 1_initial_migration.js
 ======================
