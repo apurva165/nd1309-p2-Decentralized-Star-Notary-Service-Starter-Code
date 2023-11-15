@@ -4,7 +4,34 @@
 ### ToDo
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
+ ### Version
+ * truffle : Truffle v5.11.5 (core: 5.11.5)
+ * openzeppelin-solidity : ^2.4.0
+ * Ganache : v7.9.1
+ * Solidity : - 0.5.16 (solc-js)
+ * Node : v20.9.0
+ * Web3.js : v1.10.0
 
+### Token
+* ERC-721 Token Name : Apurva token
+* ERC-721 Token Symbol : a Kul
+
+
+### Token Address on the Rinkeby Network
+
+NOT ABLE TO FUND ACCOUNT cant find tokens anywhere 
+
+"StarNotary" could not deploy due to insufficient funds
+   * Account:  0x0c261a128dfF07aF68aa5858AD694F3e9C9e6ea7
+   * Balance:  319124997821200 wei
+   * Message:  insufficient funds for gas * price + value -- Reason given: Custom error (could not decode).
+   * Try:
+      + Using an adequately funded account
+      + If you are using a local Geth node, verify that your node is synced.
+
+    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:330:1
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+1
 
 ### Dependencies
 For this project, you will need to have:
