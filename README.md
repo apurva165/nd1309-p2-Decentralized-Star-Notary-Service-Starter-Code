@@ -19,19 +19,50 @@ This Starter Code has already implemented the functionalities you implemented in
 
 ### Token Address on the Rinkeby Network
 
-NOT ABLE TO FUND ACCOUNT cant find tokens anywhere 
+1_initial_migration.js
+======================
 
-"StarNotary" could not deploy due to insufficient funds
-   * Account:  0x0c261a128dfF07aF68aa5858AD694F3e9C9e6ea7
-   * Balance:  319124997821200 wei
-   * Message:  insufficient funds for gas * price + value -- Reason given: Custom error (could not decode).
-   * Try:
-      + Using an adequately funded account
-      + If you are using a local Geth node, verify that your node is synced.
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x281793eb43b2858b0bc4b9574841a95c7b47f170f1bad92a8080bd621150720b
+   > Blocks: 1            Seconds: 8
+   > contract address:    0x680474Bd6C8f8A0AaF1217F3d0B46854dA76b627
+   > block number:        4699367
+   > block timestamp:     1700058672
+   > account:             0x0c261a128dfF07aF68aa5858AD694F3e9C9e6ea7
+   > balance:             0.499999995180867902
+   > gas used:            226587 (0x3751b)
+   > gas price:           0.000001684 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000381572508 ETH
 
-    at /usr/local/lib/node_modules/truffle/build/webpack:/packages/deployer/src/deployment.js:330:1
-    at processTicksAndRejections (node:internal/process/task_queues:95:5)
-1
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000381572508 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x97762de242b827de6db44e240efda95c3bd41166407201be804b362eeba031b0
+   > Blocks: 0            Seconds: 20
+   > contract address:    0xA0c341d429ECf7fE9Ecdcf0e8A8C5d088Fda8eBA
+   > block number:        4699369
+   > block timestamp:     1700058720
+   > account:             0x0c261a128dfF07aF68aa5858AD694F3e9C9e6ea7
+   > balance:             0.49999999101880475
+   > gas used:            2364869 (0x2415c5)
+   > gas price:           0.000001727 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000004084128763 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000004084128763 ETH
 
 ### Dependencies
 For this project, you will need to have:
