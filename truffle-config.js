@@ -56,7 +56,7 @@ module.exports = {
     //     network_id: 5,       // goerli's id
     // },
     sepolia: {
-      provider: () => new HDWalletProvider("mind change amazing evidence own athlete soda vivid exercise rigid tray innocent", 'https://sepolia.infura.io/v3/a9fa67bb1afa45baad0511c7ff635d58'),
+      provider: () => new HDWalletProvider("", 'https://sepolia.infura.io/v3/'),
       network_id: "11155111",
       gas: 4465030,
     },
